@@ -1,0 +1,28 @@
+select * from CARRERA   seleccionar 
+WHERE especialidad LIKE '%a'      seleccionar las que terminan en "a"  tener en cuenta si esque esta en minuscula o mayuscula
+
+
+
+select * from CARRERA
+WHERE especialidad LIKE '%a%'       buscar que contengan
+
+
+
+select * from CARRERA WHERE IDCARRERA BETWEEN 3 AND 5     selecione que esten entre 3 y 5
+
+
+ select * from CARRERA WHERE IDCARRERA IN  (1,3,5);   muestra los valores que tengan en la columna seleccionada y NOT IN que no contengan ''
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
